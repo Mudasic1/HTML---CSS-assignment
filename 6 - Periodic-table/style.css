@@ -1,0 +1,134 @@
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  position: relative;
+  text-align: center;
+  top: 30px;
+}
+
+/* Container */
+.container{
+  position: relative;
+  border: 3px solid black;
+  height: 38vh;
+  width: 160vh;
+  top: 30px;
+  left: 12%;
+ 
+}
+/* Line 1 */
+.container .line1{
+  display: flex;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  gap: 2px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+/* Line 1 items */
+.container .line1 .item{
+  height: 35px;
+  width: 100px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+/* Line1 item2 gap */
+
+.container .line1 .item2{
+  
+  height: 35px;
+  width: 132vh;
+  border: 2px solid black;
+  
+ 
+}
+
+
+/* Line2 */
+
+.container .line2{
+  display: flex;
+  position: absolute;
+  left: 2px;
+  top: 45px;
+  gap: 2px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.container .line2 .item{
+  height: 35px;
+  width: 70px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+
+
+/* gap */
+.container .line2 .item3{
+height: 35px;
+width: 84vh;
+border: 2px solid black;
+}
+
+.container .line3 {
+  display: flex;
+  position: absolute;
+  left: 2px;
+  top: 90px;
+  gap: 2px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.container .line3 .item{
+  height: 35px;
+  width: 70px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.container .line3 .item3{
+  height: 35px;
+  width: 84vh;
+  border: 2px solid black;
+}
+
+.container .line4{
+  display: flex;
+  position: absolute;
+  left: 2px;
+  top: 130px;
+  gap: 2px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.container .line4 .item{
+  height: 35px;
+  width: 80px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.container .line5{
+  display: flex;
+  position: absolute;
+  left: 250px;
+  top: 170px;
+  gap: 2px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.container .line5 .item{
+  height: 35px;
+  width: 80px;
+  border: 2px solid black;
+  text-align: center;
+}
